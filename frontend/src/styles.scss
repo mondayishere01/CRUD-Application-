@@ -1,0 +1,60 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+// BOILERPLATES
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px !important;
+}
+
+h2 {
+  font-size: 35px !important;
+}
+
+h3 {
+  font-size: 30px !important;
+}
+
+h4 {
+  font-size: 25px !important;
+}
+
+h5 {
+  font-size: 20px !important;
+}
+
+h6 {
+  font-size: 15px !important;
+}
+
+p {
+  font-size: 16px !important;
+}
