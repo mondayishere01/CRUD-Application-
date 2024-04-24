@@ -36,9 +36,7 @@ export class LoginComponent implements OnInit {
       .subscribe((res: any) => {
         if (res.user_exist == true) {
           localStorage.setItem('userInfo', JSON.stringify(res[0]));
-          this.router.navigate(['/get-details'], {
-            queryParams: { user_name: JSON.stringify(res.result[0].Name) },
-          });
+          this.router.navigate(['/get-details']);
         } else if (res.user_exist == false) {
           this.wrongInput = true;
           setTimeout(() => {

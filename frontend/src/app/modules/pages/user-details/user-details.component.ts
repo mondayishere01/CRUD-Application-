@@ -8,6 +8,7 @@ import { RequestService } from 'src/app/services/request.service';
 })
 export class UserDetailsComponent implements OnInit {
   dataSource: any;
+  user_name: any;
   constructor(private requestService: RequestService) {}
 
   ngOnInit() {

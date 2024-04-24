@@ -39,7 +39,7 @@ export class RegisterComponent implements OnInit {
         console.log(res);
         if (res.success == true) {
           alert(res.message);
-          this.router.navigate(['/login']);
+          this.router.navigate(['/get-details']);
         } else if (res.success == false) {
           alert(res.message);
           this.invalidFormdata = false;
