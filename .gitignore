@@ -1,1 +1,5 @@
-/node_modules
+# Ignore Node.js modules
+node_modules/
+
+# Ignore Angular modules
+src/node_modules/
